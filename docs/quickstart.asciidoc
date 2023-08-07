@@ -74,7 +74,7 @@ NOTE: The ECK operator runs by default in the `elastic-system` namespace. It is 
 +
 [source,sh]
 ----
-kubectl -n elastic-system logs -f statefulset.apps/elastic-operator
+kubectl -n elastic-system logs -f statefulsets/elastic-operator
 ----
 
 [id="{p}-deploy-elasticsearch"]
